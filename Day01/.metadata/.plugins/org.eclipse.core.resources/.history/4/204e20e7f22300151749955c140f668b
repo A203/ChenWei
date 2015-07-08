@@ -1,0 +1,23 @@
+package com.hfut.demo;
+
+public class VarDemo {
+	public void varDefine()
+	{
+		//int 1a;//变量名不能以数字开头
+		//int a@;包含不合法字符
+		int $123;//合法标识符
+		int productPrice;
+		//int if;//标识符不能是关键字
+		int i=5;
+		int j;
+		j=5;
+		int i1,j1=5;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.hfut.demo;
+
+public class Exe02 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+  char chr='a';
+  System.out.println(chr);
+  
+	}
+
+}

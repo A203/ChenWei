@@ -1,0 +1,33 @@
+package com.hfut.switchdemo;
+
+public class Demo3 {
+	public enum day{monday,tuesday,wednesday,thursday,friday,saturday,sunday;}
+	
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		int intDay=0;
+   day day1=day.wednesday;
+   switch(day1)
+   {
+   case monday:intDay=1;
+   case tuesday:
+		break;
+case friday:
+	break;
+case saturday:
+	break;
+case sunday:
+	break;
+case thursday:
+	break;
+
+case wednesday:
+	break;
+default:
+	break;
+   }
+    
+   
+	}
+
+}
