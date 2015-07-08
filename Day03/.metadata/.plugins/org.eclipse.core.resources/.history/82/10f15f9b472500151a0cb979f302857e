@@ -1,0 +1,33 @@
+package 多态;
+
+public class fruit {
+	public String toString(){
+		return "水果";
+	}
+}
+
+class Apple extends fruit{
+	public String toString(){
+		return "苹果";
+	}
+}
+class Mango extends fruit{
+	public String toString(){
+		return "芒果";
+	}
+}
+class  Juicer{
+	public void juice(fruit fruit){
+		System.out.println("榨"+fruit+"汁");
+		}
+
+	
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		Juicer j=new Juicer();
+		
+		fruit fruit=new Apple();
+		
+		j.juice(fruit);
+	}
+}
