@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/green">
+
+    <TextView android:text="关于BMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView android:text="   BMI指数(Body Mass Index)即身体质
+量指数，是与体内脂肪总量密切相关的
+指标，主要反映全身性超重和肥胖。由
+于BMI计算的是身体脂肪的比例，测量
+身体因超重而面临心脏病、高血压等风
+险上，比单纯的以体重来认定，更具准
+确性。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp" />
+    <TextView android:text="体重指数（BMI）说明："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:text="体重指数=体重/身高/身高（千克/平方米）"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:text="理想体重指数为：22"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></TextView>
+
+
+    <TextView android:text="体重指数（BMI）标准："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+            android:text="＜18.5                    轻体重"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:text="18.5～23.9        健康体重"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:text="24～27.9                    超重"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:text="≥ 28                             肥胖"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+</LinearLayout>

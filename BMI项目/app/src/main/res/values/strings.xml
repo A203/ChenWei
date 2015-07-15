@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Bmi!</string>
+    <string name="app_name">BMI</string>
+    <string name="suggest_fat">您的体重肥胖，应当注意饮食要节制，适当减肥吧！！！！</string>
+    <string name="suggest_heavy">您的体重超重，应当注意饮食健康，多多锻炼身体哦！！！</string>
+    <string name="suggest_average">您的体重正常，符合标准，请继续保持！</string>
+    <string name="suggest_light">您的体重较轻，应注意适当增加饮食！！</string>
+</resources>
